@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+/* section one styling */
+.background-image {
+    background-image: url(../image/home\ dragon\ image.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3em 2em;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.nav-logo h1 {
+    color: white;
+    font-size: 2em;
+}
+.nav-link ul {
+    display: flex;
+    list-style: none;
+}
+.nav-link li {
+    padding: 1em;
+}
+.nav-link li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.nav-link li a:hover {
+
+    background-color: rgb(241, 238, 16);
+    color: black;
+    border-radius: 7px;
+}
+
+
+/* section one content styling */
+
+.header-content {
+    width: 55vw;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    color: aliceblue;
+    padding: 1em;
+}
+
+
+.header-content>h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.header-content>p {
+    margin-bottom: 15px;
+}
+
+.header-content button {
+    width: 150px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px rgb(255, 0, 170);
+    background-color: rgb(201, 197, 0);
+    text-transform: uppercase;
+}
+
+.header-content button:hover {
+    background-color: rgba(201, 198, 0, 0.637);
+    color: white;
+}
+
+.anime-section {
+    background-color: lightgrey;
+    margin-top: 7em;
+    padding: 3em;
+
+}
+.section-two-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 1em 0em 2.3em 0em;
+    padding: 0;
+}
+
+
+.section-two-title h2 {
+    color: purple;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card-content {
+    border: 1px solid rgb(201, 201, 201);
+    width: 300px;
+    height: 750px;
+    background-image: linear-gradient(rgb(0, 4, 255), rgb(248, 1, 195));
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px black;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card-content img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-content h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(201, 197, 0);
+}
+
+.card-content p {
+    margin-bottom: 20px;
+}
+
+.card-content button {
+    width: 150px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px rgb(0, 0, 0);
+    background-color: rgb(201, 197, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(248, 1, 195);
+}
+
+#bth {
+    margin-top: 17px;
+}
+
+.card-content button:hover {
+    background-color: rgb(248, 1, 195);
+    color: rgb(201, 197, 0);
+}
+
+
+/* section three  */
+
+.form-container-bg {
+    background-color: rgb(205, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 120px 0px;
+    text-transform: uppercase;
+}
+
+/* #gojo{
+    width: 250px;
+} */
+
+.left-text-container {
+    background-image: url(../image/gojo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+
+.left-text-container h3 {
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 1.8em;
+}
+
+.user-input::placeholder,
+.email-input::placeholder,
+.comment::placeholder {
+    color: blueviolet;
+}
+
+.user-input,
+.email-input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgb(122, 121, 121);
+    color: rgb(42, 42, 42);
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment {
+    width: 300px;
+    height: 150px;
+    resize: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(42, 42, 42);
+    padding: 5px;
+    background-color: rgb(194, 193, 193);
+    outline: none;
+    display: flex;
+    
+}
+
+
+.feedback-button {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+
+.feedback-button:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(146, 145, 145);
+    padding: 50px 20px;
+    color: rgb(54, 53, 53);
+}
+
+.left-footer-content>h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.left-footer-content ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+
+.center-footer-content>h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.center-footer-content ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+
+.right-footer-content>h4 {
+    text-transform: uppercase;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.icons-container img {
+    width: 40px;
+    padding: 0px 10px 5px 0px;
+    display: inline-block;
+    opacity: 60%;
+}
+
+
+@media only screen and (max-width:800px) {
+    .left-text-container {
+        margin-bottom: 80px;
+    }
+
+    .form-container-bg {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+    }
+
+    .left-footer-content,
+    .center-footer-content,
+    .right-footer-content {
+        margin-bottom: 20px;
+    }
+
+}
